@@ -1,4 +1,4 @@
-import { cocktailLists, mockTailLists } from "../../constants/index.js"
+import { cocktailLists, mocktailLists } from "../../constants/index.js"
 
 const Cocktails = () => {
   return (
@@ -26,7 +26,7 @@ const Cocktails = () => {
                 <h2>Most Loved Mocktails</h2>
 
                 <ul>
-                    {mockTailLists.map(( name, country, detail, price ) => (
+                    {mocktailLists.map(( name, country, detail, price ) => (
                         <li key={name}>
                             <div className='md:me-28'>
                                 <h3>{name}</h3>
