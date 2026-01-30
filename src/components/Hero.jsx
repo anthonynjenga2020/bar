@@ -53,7 +53,7 @@ const Hero = () => {
                 scrub: true,
                 pin: true,
             }
-        }, []);
+        },);
 
         videoRef.current.onloadedmetadata = () => {
             tl.to(videoRef.current, {
